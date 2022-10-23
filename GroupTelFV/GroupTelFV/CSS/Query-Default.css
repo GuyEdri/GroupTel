@@ -1,0 +1,27 @@
+﻿
+/* under 1840*/
+
+@media (max-width: 115em) {
+
+    .prod-item {
+        display: flex;
+        flex-direction: row;
+        gap: 3.6rem;
+        margin-top: 2.1rem;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+        .prod-box:last-child {
+            margin-left: 4.8rem;
+        }
+}
+
+/*under 1440*/
+@media (max-width: 90em) {
+
+    .prod-box:last-child {
+        margin-left: 4.8rem;
+        margin-right: 0;
+    }
+}
